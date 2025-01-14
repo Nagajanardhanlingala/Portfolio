@@ -1,0 +1,100 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute to Dr. APJ Abdul Kalam</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <header>
+        <h1 id="title">Dr. APJ Abdul Kalam: The People's President</h1>
+    </header>
+
+    <main id="main" class="container">
+        <figure id="img-div" class="image-section">
+            
+            <img id="image" src="https://tse2.mm.bing.net/th?id=OIP.fC2kFhP9JOAjWoQDMawopAHaFQ&pid=Api&P=0&h=180" alt="Dr. APJ Abdul Kalam">
+            
+           
+            <figcaption id="img-caption">Dr. APJ Abdul Kalam</figcaption>
+        </figure>
+
+        <div id="tribute-info" class="content-section">
+            <h2>About Dr. APJ Abdul Kalam</h2>
+            <p>Dr. Avul Pakir Jainulabdeen Abdul Kalam (1931–2015) was an Indian aerospace scientist and the 11th President of India. Known as the "Missile Man of India" for his pivotal role in the nation's missile development programs, he was also a beloved teacher, writer, and visionary leader.</p>
+
+            <h2>His Achievements</h2>
+            <ul>
+                <li>Played a key role in India's civilian space program and military missile development.</li>
+                <li>Served as the Project Director for India's first satellite launch vehicle (SLV-III).</li>
+                <li>Awarded India's highest civilian honor, the Bharat Ratna, in 1997.</li>
+                <li>Authored numerous inspirational books, including <i>Wings of Fire</i> and <i>Ignited Minds</i>.</li>
+            </ul>
+
+            <h2>Legacy</h2>
+            <p>Dr. Kalam's dedication to the development of India and his humble nature inspired millions. He continues to be remembered for his vision of a strong and self-reliant India.</p>
+        </div>
+
+        <a id="tribute-link" href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam" target="_blank">Learn more about Dr. Kalam</a>
+    </main>
+
+    <footer>
+        <p>For more information, visit <a href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam" target="_blank">Wikipedia</a>.</p>
+    </footer>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+#img-div {
+    text-align: center;
+}
+
+#image {
+    display: block;     
+    max-width: 100%;     
+    height: auto;        
+    margin: 0 auto;      
+}
+
+#tribute-link {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: bold;
+}
+
+#tribute-link:hover {
+    color: #005bb5;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #0073e6;
+}
+
+footer a:hover {
+    color: #005bb5;
+}
+
+
+
+
+
+
+
+
+** end of undefined **
+

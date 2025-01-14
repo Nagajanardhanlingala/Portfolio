@@ -1,0 +1,131 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body{
+        background-image: url(https://cdn.pixabay.com/photo/2020/04/16/11/13/background-5050213_1280.png);
+      }
+      </style>
+    <title>Survey Form</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    
+    <h1 id="title"> Survey Form</h1>
+    <p id="description">Please fill out this form with required information</p>
+    <form id="survey-form" action method="POST">
+      <div>
+    </form>
+    <fieldset>
+      <label for="name" id="name-label" >Enter your Name:<input id="name" type="text" required  name="name" placeholder="Enter your name"></input></label>
+      <label for="email" id="email-label">Enter your Email:<input id="email" type="email" required placeholder="Enter your Email" name="mail"></input></label>
+      <label for="number" id="number-label" >Enter your Age:<input id="number" type="number" placeholder="Enter your Age" name="age" min="15" max="120"></input></label>
+      <label>Describe your role<select id="dropdown">
+        <option value=" ">Select year</option>
+        <option value="1">1st year</option>
+        <option value="2">2nd year</option>
+        <option value="3">3rd year</option>
+        <option value="4">Graduated</option>
+        <option value="5">Other</option>
+        </select></label>
+    </fieldset>
+    <fieldset>
+      <legend>Are you Interested in Placements</legend>
+      <label for="interested"><input type="radio" name="yesorno" id="interested" class="inline" value="interested"></input checked>Interested</label>
+    <label for="notinterested"><input type="radio" name="yesorno" id="notinterested" class="inline" value="notinterested"></input>Not Interested</label>
+    </fieldset>
+    <fieldset>
+      <legend>Choose your Domain</legend>
+      <label for="ai" ><input id="ai"type="checkbox" name="ai" class="inline" value="ai"></input>AI</label>
+<label for="cyber" ><input type="checkbox" id="cyber" class="inline" name="cyber" value="cyber"></input>Cyber Security</label>
+<label for="robotics" ><input id="robotics" type="checkbox" name="robotics" class="inline" value="robotics" ></input>Robotics</label>
+<label for="iot" ><input id="iot" type="checkbox" name="iot" class="inline" value="iot"></input>IoT</label>
+<label for="other" ><input id="other"type="checkbox" name="other" class="inline" value="other"></input>Other</label>
+    </fieldset>
+    <fieldset>
+      <label for="feedback">Provide Feedback 
+        <textarea id="feedback" rows="3" cols="25" placeholder="Personal Feedback" name="feedback" ></textarea></label></fieldset>
+    <input type="submit" value="Submit" name="submit" id="submit"></input>
+    </div>
+  </body>
+
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+body{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #1b1b32;
+  color: black;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+label{
+  display: block;
+}
+h1,p{
+  margin: 1em auto;
+  text-align: center;
+}
+form{
+  margin: 0 auto;
+  max-width: 500px;
+  min-width: 300px;
+  width: 60vw;
+  padding-bottom: 2em;
+}
+fieldset{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 0;
+  padding-right: 0;
+  border: none;
+  bottom-border: 3px solid #3b3b4f;
+}
+input,textarea,select{
+  margin-top: 10px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  min-height: 2em;
+}
+.inline{
+  width: unset;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0.5em;
+  vertical-align: middle;
+}
+input[type="submit"]{
+  display: block;
+  width: 60%;
+  width: 60vw;
+  margin: 0 auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: green;
+  color: white;
+  border-color: white;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 300px;
+}
+input[type="file"]{
+  padding: 1px 2px;
+}
+
+
+** end of undefined **
+

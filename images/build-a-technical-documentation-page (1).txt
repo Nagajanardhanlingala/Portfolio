@@ -1,0 +1,207 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation: Animals</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        #container {
+            display: flex;
+            margin-left: 200px; /* Matches navbar width */
+        }
+
+        #navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: 100%;
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-right: 1px solid #ddd;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        #navbar header {
+            margin-bottom: 10px;
+        }
+
+        #navbar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #navbar a {
+            text-decoration: none;
+            color: #333;
+            display: block;
+            padding: 5px;
+        }
+
+        #navbar a:hover {
+            background-color: #ddd;
+        }
+
+        #main-doc {
+            flex-grow: 1;
+            padding: 20px;
+        }
+
+        .main-section {
+            margin-bottom: 20px;
+        }
+
+        .main-section header {
+            margin-top: 0;
+        }
+
+        .main-section h2 {
+            margin: 0;
+        }
+
+        /* Media Query for smaller screens */
+        @media (max-width: 768px) {
+            #navbar {
+                position: relative; /* Navbar scrolls with content */
+                width: 100%; /* Full width */
+                height: auto; /* Adjust height */
+            }
+
+            #container {
+                margin-left: 0; /* Remove left margin */
+                flex-direction: column; /* Stack elements */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Technical Documentation: Animals</h1>
+    </header>
+    <div id="container">
+        <nav id="navbar">
+            <header>
+                <h2>Navigation</h2>
+            </header>
+            <ul>
+                <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+                <li><a href="#mammals" class="nav-link">Mammals</a></li>
+                <li><a href="#birds" class="nav-link">Birds</a></li>
+                <li><a href="#reptiles" class="nav-link">Reptiles</a></li>
+                <li><a href="#amphibians" class="nav-link">Amphibians</a></li>
+                <li><a href="#fish" class="nav-link">Fish</a></li>
+            </ul>
+        </nav>
+        <main id="main-doc">
+            <section id="Introduction" class="main-section">
+                <header>
+                    <h2>Introduction</h2>
+                </header>
+                <p>Animals are multicellular, eukaryotic organisms that form the biological kingdom Animalia. This documentation provides an overview of various types of animals and their characteristics, classified under the kingdom <code>Animalia</code>.</p>
+                <p>Animals are incredibly diverse, ranging from microscopic organisms to the largest creatures on Earth.</p>
+                <ul>
+                    <li>Animals are classified into many groups.</li>
+                    <li>They have specialized structures for movement and feeding.</li>
+                    <li>Most animals are capable of some form of locomotion.</li>
+                    <li>Animals vary greatly in size and form.</li>
+                    <li>They play essential roles in ecosystems.</li>
+                </ul>
+            </section>
+            <section id="mammals" class="main-section">
+                <header>
+                    <h2>Mammals</h2>
+                </header>
+                <p>Mammals are warm-blooded animals with hair or fur. They give birth to live young and produce milk for their offspring, characterized by the presence of <code>mammary glands</code>.</p>
+                <p>Examples of mammals include humans, whales, and bats.</p>
+                <ul>
+                    <li>Humans are a type of mammal.</li>
+                    <li>Whales are the largest mammals on Earth.</li>
+                    <li>Bats are the only mammals capable of true flight.</li>
+                    <li>All mammals have a backbone (vertebrates).</li>
+                    <li>Mammals have specialized teeth for different types of food.</li>
+                </ul>
+            </section>
+            <section id="birds" class="main-section">
+                <header>
+                    <h2>Birds</h2>
+                </header>
+                <p>Birds are feathered, winged, bipedal, warm-blooded, egg-laying vertebrates. They are known for their ability to fly, though some species are flightless, with adaptations such as <code>hollow bones</code> for flight.</p>
+                <p>Some birds, like penguins and ostriches, are adapted to environments where flight is unnecessary.</p>
+                <ul>
+                    <li>Birds are the only animals with feathers.</li>
+                    <li>They lay hard-shelled eggs.</li>
+                    <li>Most birds are capable of flight.</li>
+                    <li>Birds have a highly efficient respiratory system.</li>
+                    <li>Many species of birds migrate over long distances.</li>
+                </ul>
+            </section>
+            <section id="reptiles" class="main-section">
+                <header>
+                    <h2>Reptiles</h2>
+                </header>
+                <p>Reptiles are cold-blooded vertebrates that have scales or scutes. They lay eggs and are found in a variety of habitats, with protective coverings made of <code>keratin</code>.</p>
+                <p>Reptiles include snakes, lizards, turtles, and crocodiles, each with unique adaptations.</p>
+                <ul>
+                    <li>Reptiles are ectothermic (cold-blooded).</li>
+                    <li>Most reptiles lay eggs with leathery shells.</li>
+                    <li>Reptiles have dry, scaly skin.</li>
+                    <li>They often have well-developed limbs (except snakes).</li>
+                    <li>Reptiles are found in diverse habitats, from deserts to wetlands.</li>
+                </ul>
+            </section>
+            <section id="amphibians" class="main-section">
+                <header>
+                    <h2>Amphibians</h2>
+                </header>
+                <p>Amphibians are cold-blooded vertebrates that live both in water and on land. They undergo metamorphosis from a larval stage to adult form.</p>
+                <p>Amphibians are important indicators of environmental health due to their sensitive skin.</p>
+                <ul>
+                    <li>Amphibians have permeable skin that absorbs water.</li>
+                    <li>They undergo metamorphosis from larval to adult stages.</li>
+                    <li>Most amphibians live in moist environments.</li>
+                    <li>Amphibians include frogs, salamanders, and toads.</li>
+                    <li>They rely on water for reproduction.</li>
+                </ul>
+            </section>
+            <section id="fish" class="main-section">
+                <header>
+                    <h2>Fish</h2>
+                </header>
+                <p>Fish are cold-blooded aquatic vertebrates. They have gills, scales, and fins, and are found in both freshwater and marine environments, utilizing <code>gills</code> for oxygen exchange.</p>
+                <p>Fish inhabit diverse aquatic habitats, from deep oceans to freshwater rivers.</p>
+                <p>They play essential roles in ecosystems as both predators and prey.</p>
+                <ul>
+                    <li>Fish have scales that protect their bodies.</li>
+                    <li>Fish use gills to extract oxygen from water.</li>
+                    <li>There are over 32,000 species of fish.</li>
+                    <li>Some fish can live for many years, like certain species of sturgeon.</li>
+                    <li>Fish play a crucial role in the food chain of aquatic ecosystems.</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
